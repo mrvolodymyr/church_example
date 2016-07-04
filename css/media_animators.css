@@ -19,4 +19,8 @@
 	.vo_nav_ul li:hover {
 	background-color: #353535;
 }
+.vo_nav_ul li.vo_active {
+	border-bottom: none;
+	background-color: #353535;
+}
 }
