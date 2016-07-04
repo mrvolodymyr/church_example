@@ -5,18 +5,30 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/bootstrap.css"/>
 	<link rel="stylesheet" href="css/animators.css">
+	<link rel="stylesheet" href="css/media_animators.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse vo_nav">
-	  <div class="container-fluid col-sm-offset-2">
-		<ul class="nav navbar-nav vo_nav_ul">
-	    	<li><a href="#">головна</a></li>
-	    	<li><a href="#">новини</a></li>
-	    	<li><a href="#">галерея</a></li>
-	    	<li class="vo_active"><a href="#">спільноти</a></li>
-	    	<li><a href="#">розклад богослужінь</a></li>
-	    	<li><a href="#">література</a></li>
-	    </ul>
+	  <div class="container-fluid col-md-offset-1
+	  col-sm-offset-0">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav vo_nav_ul">
+	        <li class="active"><a href="#">Home</a></li>
+	        <li><a href="#">головна</a></li>
+	        <li><a href="#">новини</a></li>
+	        <li><a href="#">галерея</a></li>
+	        <li class="vo_active"><a href="#">спільноти</a></li>
+	        <li><a href="#">розклад богослужінь</a></li>
+	        <li><a href="#">література</a></li>
+	      </ul>
+	    </div>
 	  </div>
 	</nav>
 	<div class="container-fluid">
@@ -87,7 +99,7 @@
 				  </ul>
 				</nav>
 			</div>
-			<div class="col-sm-3 vo_section">
+			<div class="col-sm-3 vo_section hidden-xs">
 				<article class="vo_gap"></article>
 				<article class="vo_article">
 					<h2 class="vo_h2_left">Фото</h2>
@@ -126,14 +138,14 @@
 	<div class="navbar-bottom row-fluid">
       	<div class="navbar-inner">
         	<div class="container-fluid vo_footer">
-        		<div class="col-sm-3 col-sm-offset-1">
+        		<div class="col-sm-3 col-sm-offset-1 col-xs-3">
         			<button type="button" class="btn btn-default vo_button">Контакти</button>
         			<button type="button" class="btn btn-default vo_button">Про нас &#62;</button>
         		</div>
-        		<div class="col-sm-4">
-        			<p class="vo_p_margin">Всі права захищені. Монастир Царя Христа<br>         &#169 Copyrights 2016</p>
+        		<div class="col-sm-4 col-xs-4">
+        			<p class="vo_p_margin">Всі права захищені. Монастир Царя Христа<br/>         &#169 Copyrights 2016</p>
         		</div>
-        		<div class="col-sm-3">
+        		<div class="col-sm-3 col-xs-5">
         			<div class="vo_footer_img">
 			        	<a href="https://www.facebook.com/"><img src="img/footer_fb.png" alt="facebook.com"></a>
 			        	<a href="https://new.vk.com/"><img src="img/footer_vk.png" alt="vk.com"></a>
