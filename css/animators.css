@@ -9,9 +9,10 @@ body {
 	margin-bottom: 0 !important;
 	height: 70px;
 	background-image: url("../img/bg_top_nav.png");
+	z-index: 9;
 }
 .vo_nav_ul {
-	margin: 10px auto !important;
+	margin: 10px auto;
 }
 .vo_nav_ul li {
 	margin-left: 10px;
